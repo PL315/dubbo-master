@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  dubbo:
+    application:
+      name: dubbo-customer
+      id: dubbo-customer
+    protocol:
+      name: dubbo
+      port: 20800
+    registry:
+      address: zookeeper://127.0.0.1:2181
