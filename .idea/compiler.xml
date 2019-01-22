@@ -15,7 +15,7 @@
     <bytecodeTargetLevel>
       <module name="dubbo-api" target="1.7" />
       <module name="dubbo-customer" target="1.8" />
-      <module name="dubbo-master" target="1.7" />
+      <module name="dubbo-master" target="1.8" />
       <module name="dubbo-provider" target="1.8" />
       <module name="dubboapi" target="1.7" />
       <module name="dubbomaster" target="1.7" />
