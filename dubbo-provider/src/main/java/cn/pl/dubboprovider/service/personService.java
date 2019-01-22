@@ -2,8 +2,6 @@ package cn.pl.dubboprovider.service;
 
 import cn.pl.dubbo.IPersonService;
 import com.alibaba.dubbo.config.annotation.Service;
-import com.sun.org.apache.xpath.internal.SourceTree;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 /**

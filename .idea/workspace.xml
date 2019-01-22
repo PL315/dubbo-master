@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9298e91-7cdf-45c6-ac6b-0ef0974cfed9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" afterPath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/pom.xml" afterPath="$PROJECT_DIR$/dubbo-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-customer/pom.xml" afterPath="$PROJECT_DIR$/dubbo-customer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-master.iml" afterPath="$PROJECT_DIR$/dubbo-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/log4j_log.log" afterPath="$PROJECT_DIR$/logs/log4j_log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo-customer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="319">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -56,48 +46,30 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1203">
-              <caret line="52" column="48" lean-forward="false" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+            <state relative-caret-position="55">
+              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-customer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DubboProviderApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DubboProviderApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="58">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -106,20 +78,8 @@
       <file leaf-file-name="personService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DubboCustomerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-customer/src/main/java/cn/pl/dubbocustomer/DubboCustomerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="116">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,7 +108,6 @@
       <list>
         <option value="$PROJECT_DIR$/dubboapi/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/cn/pl/dubbo/IPersonService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/personService.java" />
         <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/cn/pl/dubbocustomer/service/PersonService.java" />
         <option value="$PROJECT_DIR$/dubbo-customer/src/main/java/cn/pl/dubbocustomer/service/DubboPersonService.java" />
@@ -159,11 +118,13 @@
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-customer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -237,6 +198,32 @@
             <path>
               <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,6 +255,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,12 +450,34 @@
       <option name="presentableId" value="Default" />
       <updated>1548134732989</updated>
       <workItem from="1548134736235" duration="6342000" />
-      <workItem from="1548141258945" duration="1459000" />
+      <workItem from="1548141258945" duration="2779000" />
     </task>
+    <task id="LOCAL-00001" summary="update maven pom">
+      <created>1548142754813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548142754813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update maven pom">
+      <created>1548143182304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548143182304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="记录">
+      <created>1548143764178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548143764178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7801000" />
+    <option name="totallyTimeSpent" value="9121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -471,12 +498,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50113124" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21606335" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6414027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41402715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19935691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18595926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,6 +521,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update maven pom" />
+    <MESSAGE value="记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="记录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -544,7 +576,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,9 +586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,44 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-customer/src/main/java/cn/pl/dubbocustomer/DubboCustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-customer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="52" column="48" lean-forward="false" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -661,17 +659,6 @@
         <state relative-caret-position="1189">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -691,10 +678,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/service/personService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/cn/pl/dubboprovider/DubboProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1831">
+            <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <folding>
+              <marker date="1548143744948" expanded="true" signature="127:274" ph="..." />
+              <marker date="1548143744948" expanded="true" signature="312:441" ph="..." />
+              <marker date="1548143744948" expanded="true" signature="456:572" ph="..." />
+              <marker date="1548143744948" expanded="true" signature="606:626" ph="server: &lt;1 key&gt;" />
+              <marker date="1548143744948" expanded="true" signature="622:626" ph="8083" />
+              <marker date="1548143744948" expanded="true" signature="627:837" ph="spring: &lt;1 key&gt;" />
+              <marker date="1548143744948" expanded="true" signature="637:837" ph="dubbo: &lt;4 keys&gt;" />
+              <marker date="1548143744948" expanded="true" signature="648:714" ph="application: &lt;2 keys&gt;" />
+              <marker date="1548143744948" expanded="true" signature="673:687" ph="dubbo-provider" />
+              <marker date="1548143744948" expanded="true" signature="700:714" ph="dubbo-provider" />
+              <marker date="1548143744948" expanded="true" signature="719:770" ph="registry: &lt;1 key&gt;" />
+              <marker date="1548143744948" expanded="true" signature="744:770" ph="zookeeper…0.0.1:2181" />
+              <marker date="1548143744948" expanded="true" signature="783:787" ph="true" />
+              <marker date="1548143744948" expanded="true" signature="792:837" ph="protocol: &lt;2 keys&gt;" />
+              <marker date="1548143744948" expanded="true" signature="814:819" ph="dubbo" />
+              <marker date="1548143744948" expanded="true" signature="832:837" ph="20881" />
+              <marker date="1548143744948" expanded="true" signature="911:1039" ph="..." />
+              <marker date="1548143744948" expanded="true" signature="1041:1106" ph="/**...*/" />
+              <marker date="1548143744948" expanded="true" signature="1107:1165" ph="@{...}" />
+              <marker date="1548143744948" expanded="true" signature="1258:1341" ph="{...}" />
+              <marker date="1548143744948" expanded="true" signature="1406:1592" ph="..." />
+              <marker date="1548143744948" expanded="true" signature="1593:1641" ph="@{...}" />
+              <marker date="1548143744948" expanded="true" signature="1721:1726" ph=" { " />
+              <marker date="1548143744948" expanded="true" signature="1786:1789" ph=" }" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-customer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
